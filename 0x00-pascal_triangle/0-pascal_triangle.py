@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ pascal triangle implementation """
 
+
 def pascal_triangle(n):
     """ pascal function """
 
@@ -15,4 +16,3 @@ def pascal_triangle(n):
                 sum(triangle[i-1][j:j+2]))
         triangle[i].append(1)
     return triangle[:n]
-
