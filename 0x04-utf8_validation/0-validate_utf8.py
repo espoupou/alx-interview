@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """UTF-8 Validation"""
 
+
 def count_bit(data):
     """count bits in one data"""
     nb = 0
