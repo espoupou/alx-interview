@@ -34,8 +34,6 @@ def recursive_solve(board, row, n):
                 board[row] = c
                 recursive_solve(board, row + 1, n)
 
-    return [0 * size for i in range(size)]
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -50,4 +48,4 @@ if __name__ == "__main__":
 
     N = int(sys.argv[1])
     myboard = [0 * N for i in range(N)]
-    solutions = recursive_solve(myboard, 0, N)
+    recursive_solve(myboard, 0, N)
