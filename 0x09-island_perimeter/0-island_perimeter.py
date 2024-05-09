@@ -2,7 +2,7 @@
 """island perim"""
 
 def island_perimeter(grid):
-    """island perim"""
+    """island perim """
     counter = 0
     grid_max = len(grid) - 1
     land_max = len(grid[0]) - 1
